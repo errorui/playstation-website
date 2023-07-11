@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Libre Baskerville', serif;
+    ;
+}
+
+:root {
+
+    --secondary-color: #0A80BE;
+    --main-color: #030e22;
+    --neon-color: #04D9FF;
+    --text-color: #d8d1dc;
+}
+
+body {
+    background-color: var(--main-color);
+    color: var(--text-color);
+}
+
+header {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12x;
+
+}
+
+ul {
+    display: flex;
+    color: var(--neon-color);
+
+}
+
+.navbar a {
+    color: var(--text-color);
+    font-size: 1.6rem;
+    /* letter-spacing: 1ch; */
+    padding: 10px 35px;
+    font-weight: 500;
+    transition: all 500ms ease-in 100ms;
+}
+
+.navbar a:hover {
+    color: var(--neon-color);
+    text-shadow: 0px -20px 105px #79fffd;
+}
+
+#logo {
+    width: 5%;
+    height: 5%;
+    display: block;
+}
+
+#logoimg {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    color: var(--text-color);
+    font-weight: 400;
+}
+
+#menu-icon {
+    font-size: 2rem;
+    display: none;
+
+}
+
+#imghome {
+    border-radius: 1.5rem;
+    width: 100%;
+}
+
+/* home */
+section {
+    padding: 80px 170px;
+
+
+
+}
+
+.home {
+    width: 100%;
+    min-height: 85vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.home-img {
+    width: 600px;
+    height: auto;
+    border-radius: 3rem;
+
+
+
+}
+
+.home-text {
+    text-align: left;
+    line-height: 1.2;
+}
+
+.home-text h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    padding-bottom: 100px;
+    color: var(--main-);
+
+}
+
+.home-text h2 {
+    font-size: 2rem;
+    margin: 1rem 0 2rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 20px 22.324px;
+    background: var(--neon-color);
+    color: black;
+    border-radius: 0.5rem;
+    transition: all 400ms ease-in
+}
+
+h3 {
+    font-size: 1.33rem;
+
+}
+
+.btn:hover {
+    background: white;
+    color: #030e22;
+    /* transform: scale(1.5) ; */
+    box-shadow: 0px 20px 30px wheat;
+    transform: translateY(20px);
+
+}
+
+/*  */
+.about-us {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 2.5rem;
+}
+
+#imgabout {
+    border-radius: 1.5rem;
+    margin: auto;
+    width: 100%;
+    transition: all 400ms  ease-in;
+}
+
+
+#about-img {
+    width: 600px;
+
+    /* margin: 12px 25px; */
+}
+
+
+.about-text {
+    text-align: left;
+    line-height: 1.3;
+    /* letter-spacing: 4chr; */
+    padding: 12px 20px;
+    margin: 12px 25px;
+}
+
+.about-text h1 {
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+.about-text p {
+    word-spacing: 0.7ch;
+}
+
+.shadow{
+    transition: all 400ms ease-in;
+}
+.shadow:hover{
+    box-shadow: 10px 20px 40px #eeeee4 ;
+    opacity: 0.3;
+}
+/* games */
+.heading{
+    text-align: center;
+    text-transform: uppercase;
+}
+.heading h1{
+    font-size: 2.4rem;
+    
+}
+.heading span{
+    font-size: 2.6rem;
+    color: var(--neon-color)
+}
+.container-games{
+    /* margin: 184px 20px; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,175px));
+    grid-gap: 1.2rem;
+    justify-content: center;
+    margin: 150px 20px;
+    align-items: center;
+}
+.pgames{
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    text-align: center;
+    flex-flow: column;
+    
+}
+#idgame1{
+    background-image: url("https://images-cdn.ubuy.co.in/6340060e7369363c3b397998-god-of-war-gaming-poster-size.jpg");
+    background-size: cover;
+}
+#idgame2{
+    background-image: url("https://m.media-amazon.com/images/I/51MFu2e82VL.jpg");
+    background-size: cover;
+}#idgame3{
+    background-image: url("https://m.media-amazon.com/images/I/81k9mAngCkL._AC_UF1000,1000_QL80_.jpg");
+    background-size: cover;
+}#idgame4{
+    background-image: url("https://wallpapercave.com/wp/wp3865900.jpg");
+    background-size: cover;
+}
+#idgame5{
+    background-image: url("https://image.api.playstation.com/vulcan/ap/rnd/202101/0812/FkzwjnJknkrFlozkTdeQBMub.png"); 
+    background-position: center;
+    background-size: cover;
+
+}
+#idgame6{
+    background-image: url("https://m.media-amazon.com/images/I/91AGvVCImtL.jpg");
+    background-size: cover;
+}
+#idgame7{
+    background-image: url("https://m.media-amazon.com/images/I/81qrMVaZigL._AC_UF1000,1000_QL80_.jpg");
+    background-size: cover;
+}
+#idgame8{
+    background-image: url("https://m.media-amazon.com/images/I/81f4z3CtwlL._AC_UF894,1000_QL80_.jpg");
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+.games h2{
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: white;
+    bottom:  -153px;
+}
+
+
+@media (max-width:720px) {
+    .home {
+        grid-template-columns: 1fr;
+        text-align: center;
+        justify-content: center;
+        grid-gap: 2.5 rem;
+
+    }
+
+    header .navbar {
+        position: absolute;
+        top: -800px;
+        /* left: 0; */
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background: #a074af;
+
+        transition: 300ms;
+    }
+
+    header .navbar.active {
+        top: 70px;
+    }
+
+    .navbar a {
+        padding: 1.5rem;
+        display: block;
+        color: #030e22
+    }
+
+    #menu-icon {
+        display: block;
+        font-size: 3rem;
+    }
+
+    #logo {
+        width: 10%;
+        height: 10%;
+    }
+
+    .home-img {
+        width: 400px;
+    }
+
+    .about-us {
+        grid-template-columns: 1fr;
+        text-align: center;
+        justify-content: center;
+        grid-gap: 2rem;
+        order: 1;
+        margin: 12px 24px;
+    }
+
+    #about-img {
+        width: 400px;
+        margin: 12px 34px;
+    }
+}
